@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.turbo/
+.idea/
+*.log
+.DS_Store
+packages/*/node_modules/
+packages/*/.next/

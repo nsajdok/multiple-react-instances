@@ -1,0 +1,9 @@
+{
+  "name": "repro-turbopack-dedup",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd packages/app && npm run dev",
+    "install:all": "npm install && cd packages/shared-package && npm install && cd ../app && npm install"
+  }
+}
